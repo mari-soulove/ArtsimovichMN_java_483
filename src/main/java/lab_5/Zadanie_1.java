@@ -1,4 +1,4 @@
-package lab_5;
+package main.java.lab_5;
  
 import java.util.Scanner;
 
@@ -9,10 +9,17 @@ import java.util.Scanner;
 public class Zadanie_1 {
 
      public static void main(String[] args)  {
+         double a;
         Scanner sc = new Scanner(System.in); {
              System.out.println("Введите целое число от 0 до 9:");  
-             int n = sc.nextInt();
-   switch (n) {
+             a = sc.nextDouble();
+             if ((a%1 !=0) || (a>9) || (a<0))
+             {
+        System.out.println("Вы ввели что-то не то");
+             }
+             else {
+                 var n=(int)a;
+             switch (n) {
 case 0: System.out.println("Ноль");
 break;
 case 1: System.out.println("Один");
@@ -32,11 +39,10 @@ break;
 case 8: System.out.println("Восемь");
 break;
 case 9: System.out.println("Девять");
-break;
-default: System.out.println("Вы ввели что-то не то");
  break;
 }  }
    
     
      }
      }
+}
