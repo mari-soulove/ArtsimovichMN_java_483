@@ -13,4 +13,5 @@ public class Zadanie_7 {
         y = y - x;
         System.out.println(x);
         System.out.println(y);
-    }  }
+    } 
+}

@@ -8,3 +8,4 @@ public class Zadanie_4 {
        System.out.println("Год рождения:"+(3126-8));
    } 
 }
+

@@ -9,3 +9,4 @@ public class Zadanie_1 {
      System.out.println("«‎Амиго очень умный»");
  }   
 }
+

@@ -10,6 +10,6 @@ public class Zadanie_3 {
      for (int i=1; i<6; i++) {
         System.out.println(i+text); 
      }
-     
+    
  } 
 }
